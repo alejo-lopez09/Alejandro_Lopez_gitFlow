@@ -20,3 +20,7 @@ Practica de Git Flow y Convetional Commits
 ![alt text](image-9.png)
 ### Creamos el git release
 ![alt text](image-10.png)
+### Guardamos cambios en README.md
+![alt text](image-11.png)
+### Finalizamos el release
+![alt text](image-13.png)
