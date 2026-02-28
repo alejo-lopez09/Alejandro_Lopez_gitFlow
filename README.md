@@ -40,3 +40,115 @@ Practica de Git Flow y Convetional Commits
 ![alt text](image-18.png)
 ### Corroboramos que aparezcan 
 ![alt text](image-20.png)
+
+
+### Creamos el repositorio 
+![alt text](image-24.png)
+
+### Ahora subimos todo al repositorio
+![alt text](image-21.png)
+
+![alt text](image-22.png)
+
+![alt text](image-23.png)
+
+# Finalizamos con la lista de comandos utilizados
+
+
+## 1. Crear carpeta del proyecto
+
+  -  mkdir Alejandro_Lopez_gitFlow
+
+  -  cd Alejandro_Lopez_gitFlow
+
+## 2.  Inicializar repositorio Git
+
+  - git init
+
+  - Crear archivos base
+
+  - touch README.md
+
+  - touch app.py
+
+  - Realizar el primer commit
+
+  - git add .
+
+  - git commit -m "feat: estructura inicial   del proyecto"
+
+## 3.  Inicializar Git Flow
+
+  - git flow init
+
+  - Configuración utilizada:
+
+  - Rama de producción: master
+
+  - Rama de desarrollo: develop
+
+  - Prefijos: valores por defecto
+
+  - Crear una feature
+
+  - git flow feature start saludo
+
+  - Realizar commits dentro de la feature
+
+  - git add .
+
+  - git commit -m "feat: agregar funcion saludar"
+
+  - git add .
+
+  - git commit -m "refactor: mejorar mensaje de la funcion saludar"
+
+  - Finalizar la feature
+
+  - git flow feature finish saludo
+
+## 4. Crear una release
+
+  - git flow release start 1.0.0
+
+  - git add .
+
+  - git commit -m "chore: preparar version 1.0.0"
+
+  - git flow release finish 1.0.0
+
+## 5. Crear un hotfix
+
+  - git flow hotfix start 1.0.1
+
+  - git add .
+
+  - git commit -m "fix: corregir mensaje del archivo .py"
+
+  - git flow hotfix finish 1.0.1
+
+## 6. Crear tags manualmente (si no se generaron automáticamente)
+
+  - git tag 1.0.0
+
+  - git tag 1.0.1
+
+  - git tag
+
+  - Ver historial completo
+
+  - git log --oneline --decorate --graph --all
+
+## 7. Conectar repositorio con GitHub
+
+  - git remote add origin https://github.com/alejo-lopez09/Alejandro_Lopez_gitFlow.git
+
+  - git remote -v (Para verificar si se subio)
+
+## 8. Subir proyecto a GitHub
+
+  - git push -u origin master
+
+  - git push origin develop
+
+  - git push --tags
