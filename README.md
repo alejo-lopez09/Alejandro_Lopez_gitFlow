@@ -8,3 +8,13 @@ Practica de Git Flow y Convetional Commits
 ![alt text](image-3.png)
 ### Creamos una feature
 ![alt text](image-4.png)
+### Agregamos una funcion al archivo .py
+![alt text](image-5.png)
+### Hacemos otro convetional commit 
+![alt text](image-6.png)
+### Mejore el mensaje del archivo .py
+![alt text](image-7.png)
+### Lo guardo
+![alt text](image-8.png)
+### Finalizamos el Git Flow
+![alt text](image-9.png)
