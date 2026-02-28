@@ -18,3 +18,5 @@ Practica de Git Flow y Convetional Commits
 ![alt text](image-8.png)
 ### Finalizamos el Git Flow
 ![alt text](image-9.png)
+### Creamos el git release
+![alt text](image-10.png)
