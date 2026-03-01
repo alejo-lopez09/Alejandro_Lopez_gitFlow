@@ -1,5 +1,11 @@
 # Proyecto Git Flow
 Practica de Git Flow y Convetional Commits
+
+
+# ¿Que es Git Flow?
+
+Git Flow es una estrategia de ramificacion que permite organizar el desarrollo mediante ramas especificas para nuevas funcionalidades (feature), preparacion de versiones (release) y correcciones urgentes (hotfix)
+
 ### Creamos un print
 ![alt text](image.png)
 ### Hacemos un convetional commit
@@ -51,6 +57,25 @@ Practica de Git Flow y Convetional Commits
 ![alt text](image-22.png)
 
 ![alt text](image-23.png)
+
+
+# Estructura de Ramas
+
+
+### master: rama principal de produccion
+### develop: rama de desarrollo
+### feature/saludo: implementacion de nueva funcionalidad
+### release/1.0.0: preparacion de version
+### hotfix/1.0.1: correccion urgente en produccion
+
+
+
+# Conventional commits
+Se utilizo el estandar Convetional commits para estructurar los mensajes de commit:
+- feat: nuevas funcionalidades
+- fix: correccion de errores
+- refactor: mejoras internas
+- chore: tareas de mantenimiento
 
 # Finalizamos con la lista de comandos utilizados
 
