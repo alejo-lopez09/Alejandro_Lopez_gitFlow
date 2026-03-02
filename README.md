@@ -40,7 +40,7 @@ Git Flow es una estrategia de ramificacion que permite organizar el desarrollo m
 - No aparecen las versiones en git tag
 ## Solucion:
 - Primero vemos si se guardaron correctamente los cambios
-- Luego revisamos en que parte esta el release y el hotfix
+- Luego revisamos en que parte esta el ID del release y del hotfix
 ![alt text](image-17.png)
 ### Agregamos manualmente el git tag de cada uno
 ![alt text](image-18.png)
